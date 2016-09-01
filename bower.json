@@ -1,7 +1,7 @@
 {
   "name": "ion.datetime-picker",
   "description": "Date and time picker for ionic framework",
-  "main": "index.js",
+  "main": ["dist/ion.datetime-picker.min.js", "dist/ion.datetime-picker.min.css"],
   "authors": [
     "https://github.com/rynangeles",
     "rynangeles@gmail.com",
