@@ -13,6 +13,8 @@ bower install ion.datetime-picker --save
 <script src="bower_components/ion.datetime-picker/dist/ion.datetime-picker.min.js"></script>
 ````
 
+## Usage
+
 ````javascript
 // Inject ion.datetime-picker to main module
 angular.module('app', ['ionic', 'ion.datetime-picker']){
