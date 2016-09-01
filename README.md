@@ -47,7 +47,11 @@ angular.module('app', ['ionic', 'ion.datetime-picker']){
 ````
 
 ##Screen Shots
-###Date
+###Date Picker
 <img src="https://lh3.googleusercontent.com/PUOkcnwlfdGez5LI34gpup8Y_U2pz1_e45PwVNZg_f35RgRS_rHYuQ74xUw3lGPogm482SUNzF2oIGQ=w1920-h939" width="320" height="568" />
 <img src="https://lh5.googleusercontent.com/rxuE1CUT746FCp7RVgShToSAK9L2ida1thmLs09KZhUTVPrtnO8_-Hkpn643J6hDxgCVd0Dx5ORp8gs=w1920-h939" width="320" height="568" />
 <img src="https://lh5.googleusercontent.com/TOPMDEQT6xEZKCvg8x-tmTFTkrta5rsln5KRHSJC8QRR4fpnICAwOXHWypIDEyqMcNBWu0YzTvAh5Vw=w1920-h939" width="320" height="568" />
+###Time Picker
+<img src="https://lh4.googleusercontent.com/BaWtrRjKRNMDoJUzFmO8oVYpjEC2MwhZGltBNozh_FZBimqDKE2x9ZqAxXRGbGZd7JAcz0kQ0wme0k4=w1920-h939" width="320" height="568" />
+<img src="https://lh3.googleusercontent.com/wLe6neg5v_PC8ltegEgH-vzGODMgtv1Ncsj3bqkjOi8Xqc5Z96irPvTHfjcemsFDohNOr2BFtxS9JzE=w1920-h939" width="320" height="568" />
+<img src="https://lh4.googleusercontent.com/j6DdyEJQcWHiMqlTZpfPXKjdMOnnLom_Vza1Zm0nBSclfMtxyscVGKJyYI4T6pxRVNKZM0-oJsqgX9c=w1920-h939" width="320" height="568" />
