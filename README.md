@@ -45,3 +45,9 @@ angular.module('app', ['ionic', 'ion.datetime-picker']){
 	</div>
 </div>
 ````
+
+##Screen Shots
+###Date
+<img src="https://lh3.googleusercontent.com/PUOkcnwlfdGez5LI34gpup8Y_U2pz1_e45PwVNZg_f35RgRS_rHYuQ74xUw3lGPogm482SUNzF2oIGQ=w1920-h939" width="320" height="568" />
+<img src="https://lh5.googleusercontent.com/rxuE1CUT746FCp7RVgShToSAK9L2ida1thmLs09KZhUTVPrtnO8_-Hkpn643J6hDxgCVd0Dx5ORp8gs=w1920-h939" width="320" height="568" />
+<img src="https://lh5.googleusercontent.com/TOPMDEQT6xEZKCvg8x-tmTFTkrta5rsln5KRHSJC8QRR4fpnICAwOXHWypIDEyqMcNBWu0YzTvAh5Vw=w1920-h939" width="320" height="568" />
