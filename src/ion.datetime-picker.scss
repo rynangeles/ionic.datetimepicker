@@ -1,0 +1,170 @@
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+
+.date-time-picker{
+    .popup{
+        width: auto;
+        min-width: 250px;
+    }
+    .popup-head{
+        display: none;
+    }
+    
+    .popup-body{
+        & > div:not(.date){
+            width: 230px;
+        }
+        div.date{
+            width: 260px;
+        }
+    }
+    
+    button{
+        border: none;
+        background-color: transparent;
+    }
+    .popup-buttons{
+        padding: 0;
+        min-height: 44px;
+        button{
+            border-radius: 0 !important;
+            -webkit-border-radius: 0 !important;
+            -moz-border-radius: 0 !important;
+            margin: 0;
+        } 
+    }
+    .controls-container{
+        position: relative;
+        text-align: center;
+        margin-bottom: 10px;
+        button{
+            display: inline-block;
+            &.button-header{
+                font-size: 1.2em;
+                color: $dark;
+            }
+            &.button-prev{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                color: $positive;
+            }
+            &.button-next{
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                color: $positive;
+            }
+        }
+    }
+    .week-days-container{
+        ul.week-days{
+            li{
+                display: inline-block;
+                width: calc(100% / 7);
+                text-align: center;
+                font-size: 0.9em;
+                font-weight: 700;
+                color: adjust-hue($energized, -15%);
+            }
+        }
+    }
+    .month-container{
+        ul.week{
+            display: block;
+            margin-top: 5px;
+            li.day{
+                display: inline-block;
+                width: calc(100% / 7);
+                text-align: center;
+                button{
+                    padding: 0;
+                    text-align: center;
+                    background: none;
+                    width: 35px;
+                    height: 35px;
+                    font-size: 0.9em;
+                    white-space: nowrap;
+                    line-height: 30px;
+                    border: none;
+                    border-radius: 999999px !important;
+                    -webkit-border-radius: 999999px !important;
+                    -moz-border-radius: 999999px !important;
+                }
+                &.today button{
+                    background-color: darken($stable, 10%);
+                }
+                &.selected button{
+                    background-color: $positive;
+                    color: $light;
+                }
+            }
+        }
+    }
+    .month-names-container{
+        .month-names{
+            li{
+                display: inline-block;
+                width: calc(100% / 3);
+                text-align: center;
+                margin-top: 10px;
+                button{
+                    width: calc(100% - 20px);
+                }
+            }
+        }
+    }
+    .years-container{
+        .years{
+            li{
+                display: inline-block;
+                width: calc(100% / 3);
+                text-align: center;
+                margin-top: 10px;
+                button{
+                    width: calc(100% - 20px);
+                }
+            }
+        }
+    }
+    .time-container{
+        .box{
+            display: inline-block;
+            text-align: center;
+            width: calc(100% / 4);
+            vertical-align: middle;
+            button:not(.button-up):not(.button-down){
+                display: block;
+                width: 100%;
+            }
+            button{
+                font-size: 1.3em;
+                &.button-up, &.button-down{
+                    color: $positive;
+                }
+            }
+        }
+    }
+    .hours-container, .minutes-container{
+        ul{
+            li{
+                display: inline-block;
+                width: calc(100% / 4);
+                text-align: center;
+                margin-top: 10px;
+                button{
+                    width: calc(100% - 20px);
+                }
+            }
+        }
+    }
+}

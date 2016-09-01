@@ -1,0 +1,29 @@
+{
+  "name": "ionic.datetimepicker",
+  "version": "0.0.1",
+  "description": "Date and time picker for ionic framework",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-ng-annotate": "^2.0.2",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rynangeles/ionic.datetimepicker.git"
+  },
+  "author": "https://github.com/rynangeles, rynangeles@gmail.com, Ryan Angeles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rynangeles/ionic.datetimepicker/issues"
+  },
+  "homepage": "https://github.com/rynangeles/ionic.datetimepicker#readme"
+}

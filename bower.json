@@ -1,0 +1,34 @@
+{
+  "name": "ion.datetime-picker",
+  "description": "Date and time picker for ionic framework",
+  "main": "index.js",
+  "authors": [
+    "https://github.com/rynangeles",
+    "rynangeles@gmail.com",
+    "Ryan Angeles"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rynangeles/ionic.datetimepicker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "ion.datetime-picker",
+    "ionic",
+    "datetime-picker",
+    "datetime-picker for ionic",
+    "datetime-picker for ionic framework"
+  ],
+  "dependencies": {
+    "angular-moment": "^0.10.3",
+    "ionic": "^1.3.1",
+    "moment-range": "^2.2.0"
+  },
+  "resolutions": {
+    "angular": ">=1.2.0 <1.5.0"
+  }
+}
