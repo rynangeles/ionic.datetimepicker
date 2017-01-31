@@ -1,6 +1,6 @@
 {
   "name": "ionic.datetimepicker",
-  "version": "0.2.0",
+  "version": "0.1.2",
   "description": "Date and time picker for ionic framework",
   "main": "index.js",
   "dependencies": {},
