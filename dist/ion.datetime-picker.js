@@ -230,7 +230,7 @@
         $templateCache.put('ionic-date-time-picker/template/hours.html',
             '<div class="hours-container">' +
                 '<ul class="hours">' +
-                    '<li class="name" ng-repeat="hour in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]">' +
+                    '<li class="name" ng-repeat="hour in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]">' +
                         '<button class="button button-small" ng-class="((\'0\' + hour).slice(-2) === calendar.selected.format(\'hh\')) ? \'button-positive\' : \'button-stable\'" ng-click="selectHours(hour)">{{(\'0\' + hour).slice(-2)}}</button>' +
                     '</li>' +
                 '</ul>' +
